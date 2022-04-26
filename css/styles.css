@@ -379,12 +379,15 @@ ul {
 .footer__contacts {
   flex-grow: 1;
 }
-.footer__link {
+.footer__logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-txt--mode-black);
+}
+.footer__logo--blue{
+  color: var(--accent-txt);
 }
 .address {
   font-style: normal;
@@ -449,7 +452,7 @@ ul {
   margin-top: 20px;
 }
 
-.subscription_title {
+.subscription__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
