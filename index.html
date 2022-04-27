@@ -68,7 +68,7 @@
       <!--Наши приемущества-->
       <section class="section benefits">
         <div class="container">
-          <h2 class="benefits__hidden-title">Преимущества</h2>
+          <h2 class="visually-hidden">Преимущества</h2>
           <ul class="benefits__list">
             <li class="benefits__item">
               <div class="benefits__icon">
@@ -448,52 +448,52 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="btn-close" data-modal-close>
-          <svg width="30px" height="30px" class="close-icons">
+          <svg width="30px" height="30px" class="btn-close_icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <form class="modal-form">
-          <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
-          <div class="form-field">
-            <label class="modal-label" for="username">Имя</label>
-            <input class="form-input" type="text" name="username" id="username" />
-            <svg class="form-svg" width="12px" height="12px" class="person-icons">
+          <p class="modal-form__title">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="modal-form__field">
+            <label class="modal-form__label" for="username">Имя</label>
+            <input class="modal-form__input" type="text" name="username" id="username" />
+            <svg class="modal-form__svg" width="12px" height="12px" class="person-icons">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label class="modal-label" for="tel">Телефон</label>
-            <input class="form-input" type="tel" name="tel" id="tel" />
-            <svg class="form-svg" width="13px" height="13px" class="tel-icons">
+          <div class="modal-form__field">
+            <label class="modal-form__label" for="tel">Телефон</label>
+            <input class="modal-form__input" type="tel" name="tel" id="tel" />
+            <svg class="modal-form__svg" width="13px" height="13px" class="tel-icons">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
           </div>
-          <div class="form-field">
-            <label class="modal-label" for="mail">Почта</label>
-            <input class="form-input" type="email" name="mail" id="mail" />
-            <svg class="form-svg" width="15px" height="12px" class="mail-icons">
+          <div class="modal-form__field">
+            <label class="modal-form__label" for="mail">Почта</label>
+            <input class="modal-form__input" type="email" name="mail" id="mail" />
+            <svg class="modal-form__svg" width="15px" height="12px" class="mail-icons">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>
           </div>
-          <div class="form-field">
+          <div class="modal-form__field">
             <label for="comment">Комментарий</label>
             <textarea
-              class="form-textarea"
+              class="modal-form__textarea"
               name="comment"
               id="comment"
               rows="7"
               placeholder="Введите текст"
             ></textarea>
           </div>
-          <div class="form-filed-chekbox">
-            <label class="agree" for="agree">
-              <input class="checkbox" type="checkbox" name="agree" id="agree" />
-              <span class="check"></span>
+          <div class="cheсkbox">
+            <label class="cheсkbox__label" for="agree">
+              <input class="cheсkbox__input" type="checkbox" name="agree" id="agree" />
+              <span class="cheсkbox__check"></span>
               Соглашаюсь с рассылкой и принимаю
-              <a class="agree-link" href="">Условия договора</a>
+              <a class="cheсkbox__link" href="">Условия договора</a>
             </label>
           </div>
-          <button class="submit-btn" type="submit">Отправить</button>
+          <button class="btn-submit" type="submit">Отправить</button>
         </form>
       </div>
     </div>
