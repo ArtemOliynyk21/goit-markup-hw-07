@@ -38,7 +38,7 @@ img {
   height: auto;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
@@ -73,6 +73,13 @@ ul {
   overflow: hidden;
 }
 
+.section__title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
 .hero__button, .subscription__btn, .btn-submit {
   border-radius: 4px;
   font-weight: 700;
@@ -101,7 +108,7 @@ ul {
   align-items: center;
 }
 
-.header__logo {
+.logo {
   margin-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -111,7 +118,7 @@ ul {
   color: black;
 }
 
-.header__logo--blue {
+.logo--blue {
   color: var(--accent-txt);
 }
 
@@ -224,7 +231,7 @@ ul {
   background-color: #188ce8;
 }
 
-.benefits__list {
+.benefits {
   display: flex;
 }
 
@@ -232,7 +239,7 @@ ul {
   margin-right: 30px;
 }
 
-.benefits__icon {
+.benefits__icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,18 +263,11 @@ ul {
   color: var(--secondary-txt--mode-light);
 }
 
-.services {
+.section--nopading-top {
   padding-top: 0;
 }
 
-.services__title {
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.services__list {
+.services {
   display: flex;
   margin-top: 50px;
 }
@@ -299,11 +299,11 @@ ul {
   font-weight: 700;
 }
 
-.team {
+.section--user-background {
   background-color: var(--light-bg);
 }
 
-.team__list {
+.team {
   display: flex;
   margin-top: 50px;
 }
@@ -319,26 +319,19 @@ ul {
   text-align: center;
 }
 
-.team__title {
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
 .team__info {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team__name {
+.team__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-.team__skill {
+.team__text {
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.19;
@@ -372,14 +365,7 @@ ul {
   fill: var(--primary-txt--mode-black);
 }
 
-.clients__title {
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.cliens__list {
+.clients {
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -416,16 +402,8 @@ ul {
   flex-grow: 1;
 }
 
-.footer__logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+.footer .logo {
   color: var(--primary-txt--mode-black);
-}
-
-.footer__logo--blue {
-  color: var(--accent-txt);
 }
 
 .address {

@@ -21,25 +21,25 @@
   <body>
     <header class="header">
       <div class="header__container container">
-        <a class="header__logo link" href="./index.html">
-          <span class="header__logo--blue">Web</span>Studio</a
+        <a class="logo" href="./index.html">
+          <span class="logo--blue">Web</span>Studio</a
         >
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link link nav__link--current" href="">Студия</a>
+              <a class="nav__link nav__link--current" href="">Студия</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="./portfolio.html">Портфолио</a>
+              <a class="nav__link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="">Контакты</a>
+              <a class="nav__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="contact">
           <li class="contact__item">
-            <a class="contact__link link" href="mailto:info@devstudio.com">
+            <a class="contact__link" href="mailto:info@devstudio.com">
               <svg class="contact__icon" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -47,7 +47,7 @@
             </a>
           </li>
           <li class="contact__item">
-            <a class="contact__link link" href="tel:+380961111111">
+            <a class="contact__link" href="tel:+380961111111">
               <svg class="contact__icon" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -66,12 +66,12 @@
         </div>
       </section>
       <!--Наши приемущества-->
-      <section class="section benefits">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="benefits__list">
+          <ul class="benefits">
             <li class="benefits__item">
-              <div class="benefits__icon">
+              <div class="benefits__icon-box">
                 <svg width="70px" height="70px" class="antenna">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
@@ -82,7 +82,7 @@
               </p>
             </li>
             <li class="benefits__item">
-              <div class="benefits__icon">
+              <div class="benefits__icon-box">
                 <svg width="70px" height="70px" class="clock">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
@@ -93,7 +93,7 @@
               </p>
             </li>
             <li class="benefits__item">
-              <div class="benefits__icon">
+              <div class="benefits__icon-box">
                 <svg width="70px" height="70px" class="diagram">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
@@ -104,7 +104,7 @@
               </p>
             </li>
             <li class="benefits__item">
-              <div class="benefits__icon">
+              <div class="benefits__icon-box">
                 <svg width="70px" height="70px" class="astronaut">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
@@ -118,10 +118,10 @@
         </div>
       </section>
       <!--Что мы можем-->
-      <section class="section services">
+      <section class="section section--nopading-top">
         <div class="container">
-          <h2 class="services__title">Чем мы занимаемся</h2>
-          <ul class="services__list">
+          <h2 class="section__title">Чем мы занимаемся</h2>
+          <ul class="services">
             <li class="services__item">
               <div class="services__wrapper">
                 <img
@@ -162,10 +162,10 @@
         </div>
       </section>
       <!--Наши сотрудники-->
-      <section class="section team">
+      <section class="section section--user-background">
         <div class="container">
-          <h2 class="team__title">Наша команда</h2>
-          <ul class="team__list">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="team">
             <li class="team__item">
               <img
                 class="team__foto"
@@ -174,8 +174,8 @@
                 width="270"
               />
               <div class="team__info">
-                <h3 class="team__name">Игорь Демьяненко</h3>
-                <p class="team__skill">Product Designer</p>
+                <h3 class="team__title">Игорь Демьяненко</h3>
+                <p class="team__text">Product Designer</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a href="" class="socials__link">
@@ -216,8 +216,8 @@
                 width="270"
               />
               <div class="team__info">
-                <h3 class="team__name">Ольга Репина</h3>
-                <p class="team__skill">Frontend Developer</p>
+                <h3 class="team__title">Ольга Репина</h3>
+                <p class="team__text">Frontend Developer</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a href="" class="socials__link">
@@ -253,8 +253,8 @@
             <li class="team__item">
               <img class="team__foto" src="./images/worker_3.jpg" alt="Marketing" width="270" />
               <div class="team__info">
-                <h3 class="team__name">Николай Тарасов</h3>
-                <p class="team__skill">Marketing</p>
+                <h3 class="team__title">Николай Тарасов</h3>
+                <p class="team__text">Marketing</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a href="" class="socials__link">
@@ -290,8 +290,8 @@
             <li class="team__item">
               <img class="team__foto" src="./images/worker_4.jpg" alt="UI Designer" width="270" />
               <div class="team__info">
-                <h3 class="team__name">Михаил Ермаков</h3>
-                <p class="team__skill">UI Designer</p>
+                <h3 class="team__title">Михаил Ермаков</h3>
+                <p class="team__text">UI Designer</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a href="" class="socials__link">
@@ -327,10 +327,11 @@
           </ul>
         </div>
       </section>
-      <section class="section clients">
+        <!--Наши клиенты-->
+      <section class="section">
         <div class="container">
-          <h2 class="clients__title">Постоянные клиенты</h2>
-          <ul class="cliens__list">
+          <h2 class="section__title">Постоянные клиенты</h2>
+          <ul class="clients">
             <li class="clients__item">
               <a class="clients__link" href="">
                 <svg width="106px" height="60px" class="clients__icon">
@@ -380,19 +381,19 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__contacts">
-          <a class="footer__logo link" href="./index.html"> <span class="footer__logo--blue">Web</span>Studio</a>
+          <a class="logo" href="./index.html"> <span class="logo--blue">Web</span>Studio</a>
           <address class="address">
             <ul class="address__list">
               <li class="address__item">
-                <a class="address__link link" href="https://goo.gl/maps/LVAJjjuwZ4dbW4YDA"
+                <a class="address__link" href="https://goo.gl/maps/LVAJjjuwZ4dbW4YDA"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
               <li class="address__item">
-                <a class="address__contacts link" href="mailto:info@example.com">info@example.com</a>
+                <a class="address__contacts" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li class="address__item">
-                <a class="address__contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="address__contacts" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>

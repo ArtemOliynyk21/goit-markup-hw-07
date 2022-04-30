@@ -1,15 +1,8 @@
-.services {
+.section--nopading-top {
     padding-top: 0;
 }
 
-.services__title {
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-}
-
-.services__list {
+.services {
     display: flex;
     margin-top: 50px;
 }
